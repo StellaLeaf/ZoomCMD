@@ -1,0 +1,14 @@
+name: ZoomCMD
+main: io.stellaleaf.zoomcmd.zoomCMD
+version: 1.0.0
+api-version: '1.13'
+description: Bukkit Library for zoom with commands
+authors: [ Stellaleaf ]
+commands:
+  zoom:
+    description: Main command for ZoomCMD
+    permission: ZoomCMD.op
+permissions:
+  ZoomCMD.*:
+    ZoomCMD.op:
+    default: op
